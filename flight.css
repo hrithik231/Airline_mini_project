@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)),url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-text{
+    width: 70%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-text h1{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid black;
+    color:white;
+    background: #302b2b;
+    font-weight: bold;
+    transition: 0.4s;
+}
+button a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    border: 2px solid #fff;
+    background: transparent;
+}
+.header{
+    width: 100%;
+    height: 16%;
+    background: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    flex-flow: 15%;
+}
+.logo img{
+    margin: 1px 0;
+    width: 100px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo,.navbar #list, .navbar #list li a{
+    display: flex;
+    align-items: center;
+}
+ .navbar #list{
+    flex: 1;
+    justify-content: flex-end;
+ }
+ .navbar #list li{
+     list-style-type: none;
+     margin-left: 25px;
+     padding: 6px 16px;
+     border-radius: 18px;
+ }
+ .navbar #list li:hover{
+     background:grey;
+     border: 2px solid black;
+ }
+ .navbar #list li a{
+     text-decoration: none;
+     column-rule:black;
+     font-size: 15px;
+     font-weight: bold;
+    color: black;
+    }
+ .navbar .fa{
+     margin-right:10px;
+     font-size: 20px;
+ }
+ .bg-color{
+     background-color: grey;
+ }
+ .bg-color{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)),url(airport.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ .about1{
+     color: white;
+     text-align: center;
+     padding: 4px;
+ }
+ .about1 h1{
+     padding: 2%;
+ }
+ .para1 p{
+     color: white;
+     border: 4px solid white;
+     padding: 4%;
+     margin: 4%;
+     font-size: 90%;
+    }
+ .para2 p{
+    color: white;
+    border: 4px solid white;
+    padding: 4%;
+    margin: 4%;
+    font-size: 90%;
+ }
+ .bg2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)),url(formbg.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+.footer p{
+    color: black;
+    text-align: center;
+    font-size: 80%;
+    background-color: darkgrey;  
+}
+.footer p span{
+    color: blue;
+}
+.bg2 h1{
+    color: white;
+    padding: 2%;
+    text-align: center;
+    padding: 4%;
+}
+.bg2 .fm form {
+    padding: 2%;
+    color: white;
+}
+.bg2 iframe{
+    margin-left: auto;
+margin-right: auto;
+display: block;
+    width: 600px;
+}
